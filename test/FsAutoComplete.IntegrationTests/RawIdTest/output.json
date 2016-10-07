@@ -148,31 +148,14 @@
   ]
 }
 {
-  "Kind": "completion",
-  "Data": [
-    {
-      "Name": "Another`Column",
-      "ReplacementText": "``Another`Column``",
-      "Glyph": "Field",
-      "GlyphChar": "F"
-    },
-    {
-      "Name": "Column1",
-      "ReplacementText": "Column1",
-      "Glyph": "Field",
-      "GlyphChar": "F"
-    }
-  ]
-}
-{
   "Kind": "helptext",
   "Data": {
-    "Name": "Another`Column",
+    "Name": "tan",
     "Overloads": [
       [
         {
-          "Signature": "val Another`Column : int",
-          "Comment": ""
+          "Signature": "val tan : value:'T -> 'T (requires member Tan)",
+          "Comment": "Tangent of the given number\n\nvalue: The input value."
         }
       ]
     ]
@@ -182,16 +165,2921 @@
   "Kind": "completion",
   "Data": [
     {
-      "Name": "Another`Column",
-      "ReplacementText": "``Another`Column``",
+      "Name": "AbstractClassAttribute",
+      "ReplacementText": "AbstractClassAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AllowNullLiteralAttribute",
+      "ReplacementText": "AllowNullLiteralAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Array",
+      "ReplacementText": "Array",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Array2D",
+      "ReplacementText": "Array2D",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Array3D",
+      "ReplacementText": "Array3D",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Array4D",
+      "ReplacementText": "Array4D",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Async",
+      "ReplacementText": "Async",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AsyncBuilder",
+      "ReplacementText": "AsyncBuilder",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AsyncReplyChannel",
+      "ReplacementText": "AsyncReplyChannel",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AutoOpenAttribute",
+      "ReplacementText": "AutoOpenAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AutoSerializableAttribute",
+      "ReplacementText": "AutoSerializableAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CLIEventAttribute",
+      "ReplacementText": "CLIEventAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CLIMutableAttribute",
+      "ReplacementText": "CLIMutableAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Checked",
+      "ReplacementText": "Checked",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Choice",
+      "ReplacementText": "Choice",
+      "Glyph": "Type",
+      "GlyphChar": "T"
+    },
+    {
+      "Name": "Choice1Of2",
+      "ReplacementText": "Choice1Of2",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of3",
+      "ReplacementText": "Choice1Of3",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of4",
+      "ReplacementText": "Choice1Of4",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of5",
+      "ReplacementText": "Choice1Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of6",
+      "ReplacementText": "Choice1Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of7",
+      "ReplacementText": "Choice1Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of2",
+      "ReplacementText": "Choice2Of2",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of3",
+      "ReplacementText": "Choice2Of3",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of4",
+      "ReplacementText": "Choice2Of4",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of5",
+      "ReplacementText": "Choice2Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of6",
+      "ReplacementText": "Choice2Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of7",
+      "ReplacementText": "Choice2Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of3",
+      "ReplacementText": "Choice3Of3",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of4",
+      "ReplacementText": "Choice3Of4",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of5",
+      "ReplacementText": "Choice3Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of6",
+      "ReplacementText": "Choice3Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of7",
+      "ReplacementText": "Choice3Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of4",
+      "ReplacementText": "Choice4Of4",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of5",
+      "ReplacementText": "Choice4Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of6",
+      "ReplacementText": "Choice4Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of7",
+      "ReplacementText": "Choice4Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice5Of5",
+      "ReplacementText": "Choice5Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice5Of6",
+      "ReplacementText": "Choice5Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice5Of7",
+      "ReplacementText": "Choice5Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice6Of6",
+      "ReplacementText": "Choice6Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice6Of7",
+      "ReplacementText": "Choice6Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice7Of7",
+      "ReplacementText": "Choice7Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "ClassAttribute",
+      "ReplacementText": "ClassAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Collections",
+      "ReplacementText": "Collections",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "CommonExtensions",
+      "ReplacementText": "CommonExtensions",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "ComparisonConditionalOnAttribute",
+      "ReplacementText": "ComparisonConditionalOnAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ComparisonIdentity",
+      "ReplacementText": "ComparisonIdentity",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "CompilationArgumentCountsAttribute",
+      "ReplacementText": "CompilationArgumentCountsAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilationMappingAttribute",
+      "ReplacementText": "CompilationMappingAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilationRepresentationAttribute",
+      "ReplacementText": "CompilationRepresentationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilationRepresentationFlags",
+      "ReplacementText": "CompilationRepresentationFlags",
+      "Glyph": "Enum",
+      "GlyphChar": "E"
+    },
+    {
+      "Name": "CompilationSourceNameAttribute",
+      "ReplacementText": "CompilationSourceNameAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompiledNameAttribute",
+      "ReplacementText": "CompiledNameAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilerMessageAttribute",
+      "ReplacementText": "CompilerMessageAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilerServices",
+      "ReplacementText": "CompilerServices",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Control",
+      "ReplacementText": "Control",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Core",
+      "ReplacementText": "Core",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "CustomComparisonAttribute",
+      "ReplacementText": "CustomComparisonAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CustomEqualityAttribute",
+      "ReplacementText": "CustomEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CustomOperationAttribute",
+      "ReplacementText": "CustomOperationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Data",
+      "ReplacementText": "Data",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "DefaultAugmentationAttribute",
+      "ReplacementText": "DefaultAugmentationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "DefaultValueAttribute",
+      "ReplacementText": "DefaultValueAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "DelegateEvent",
+      "ReplacementText": "DelegateEvent",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "EntryPointAttribute",
+      "ReplacementText": "EntryPointAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "EqualityConditionalOnAttribute",
+      "ReplacementText": "EqualityConditionalOnAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Event",
+      "ReplacementText": "Event",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "ExperimentalAttribute",
+      "ReplacementText": "ExperimentalAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ExtraTopLevelOperators",
+      "ReplacementText": "ExtraTopLevelOperators",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "FSharp",
+      "ReplacementText": "FSharp",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "FSharpFunc",
+      "ReplacementText": "FSharpFunc",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "FSharpInterfaceDataVersionAttribute",
+      "ReplacementText": "FSharpInterfaceDataVersionAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "FSharpTypeFunc",
+      "ReplacementText": "FSharpTypeFunc",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "Failure",
+      "ReplacementText": "Failure",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "Format",
+      "ReplacementText": "Format",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "FuncConvert",
+      "ReplacementText": "FuncConvert",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "GeneralizableValueAttribute",
+      "ReplacementText": "GeneralizableValueAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Handler",
+      "ReplacementText": "Handler",
+      "Glyph": "Delegate",
+      "GlyphChar": "D"
+    },
+    {
+      "Name": "HashIdentity",
+      "ReplacementText": "HashIdentity",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "IDelegateEvent",
+      "ReplacementText": "IDelegateEvent",
+      "Glyph": "Interface",
+      "GlyphChar": "I"
+    },
+    {
+      "Name": "IEvent",
+      "ReplacementText": "IEvent",
+      "Glyph": "Interface",
+      "GlyphChar": "I"
+    },
+    {
+      "Name": "InterfaceAttribute",
+      "ReplacementText": "InterfaceAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "KeyValue",
+      "ReplacementText": "KeyValue",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "LanguagePrimitives",
+      "ReplacementText": "LanguagePrimitives",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Lazy",
+      "ReplacementText": "Lazy",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "LazyExtensions",
+      "ReplacementText": "LazyExtensions",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Linq",
+      "ReplacementText": "Linq",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "List",
+      "ReplacementText": "List",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "LiteralAttribute",
+      "ReplacementText": "LiteralAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "MailboxProcessor",
+      "ReplacementText": "MailboxProcessor",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Map",
+      "ReplacementText": "Map",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "MatchFailureException",
+      "ReplacementText": "MatchFailureException",
+      "Glyph": "Exception",
+      "GlyphChar": "X"
+    },
+    {
+      "Name": "MeasureAnnotatedAbbreviationAttribute",
+      "ReplacementText": "MeasureAnnotatedAbbreviationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "MeasureAttribute",
+      "ReplacementText": "MeasureAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Microsoft",
+      "ReplacementText": "Microsoft",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Mono",
+      "ReplacementText": "Mono",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "NativeInterop",
+      "ReplacementText": "NativeInterop",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "NoComparisonAttribute",
+      "ReplacementText": "NoComparisonAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "NoDynamicInvocationAttribute",
+      "ReplacementText": "NoDynamicInvocationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "NoEqualityAttribute",
+      "ReplacementText": "NoEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "NonStructuralComparison",
+      "ReplacementText": "NonStructuralComparison",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "None",
+      "ReplacementText": "None",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "NumericLiteralI",
+      "ReplacementText": "NumericLiteralI",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "NumericLiterals",
+      "ReplacementText": "NumericLiterals",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Observable",
+      "ReplacementText": "Observable",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "OperatorIntrinsics",
+      "ReplacementText": "OperatorIntrinsics",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Operators",
+      "ReplacementText": "Operators",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "OptimizedClosures",
+      "ReplacementText": "OptimizedClosures",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Option",
+      "ReplacementText": "Option",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "OptionalArgumentAttribute",
+      "ReplacementText": "OptionalArgumentAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Printf",
+      "ReplacementText": "Printf",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "PrintfFormat",
+      "ReplacementText": "PrintfFormat",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ProjectionParameterAttribute",
+      "ReplacementText": "ProjectionParameterAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Quotations",
+      "ReplacementText": "Quotations",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "ReferenceEqualityAttribute",
+      "ReplacementText": "ReferenceEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ReflectedDefinitionAttribute",
+      "ReplacementText": "ReflectedDefinitionAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Reflection",
+      "ReplacementText": "Reflection",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "RequireQualifiedAccessAttribute",
+      "ReplacementText": "RequireQualifiedAccessAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "RequiresExplicitTypeArgumentsAttribute",
+      "ReplacementText": "RequiresExplicitTypeArgumentsAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ResizeArray",
+      "ReplacementText": "ResizeArray",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "SealedAttribute",
+      "ReplacementText": "SealedAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Seq",
+      "ReplacementText": "Seq",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Set",
+      "ReplacementText": "Set",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Some",
+      "ReplacementText": "Some",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "SourceConstructFlags",
+      "ReplacementText": "SourceConstructFlags",
+      "Glyph": "Enum",
+      "GlyphChar": "E"
+    },
+    {
+      "Name": "String",
+      "ReplacementText": "String",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "StructAttribute",
+      "ReplacementText": "StructAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "StructuralComparisonAttribute",
+      "ReplacementText": "StructuralComparisonAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "StructuralEqualityAttribute",
+      "ReplacementText": "StructuralEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "StructuredFormatDisplayAttribute",
+      "ReplacementText": "StructuredFormatDisplayAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "System",
+      "ReplacementText": "System",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Unchecked",
+      "ReplacementText": "Unchecked",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "UnverifiableAttribute",
+      "ReplacementText": "UnverifiableAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "VolatileFieldAttribute",
+      "ReplacementText": "VolatileFieldAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "WebExtensions",
+      "ReplacementText": "WebExtensions",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "X",
+      "ReplacementText": "X",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "abs",
+      "ReplacementText": "abs",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "acos",
+      "ReplacementText": "acos",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "array",
+      "ReplacementText": "array",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "array2D",
+      "ReplacementText": "array2D",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "asin",
+      "ReplacementText": "asin",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "async",
+      "ReplacementText": "async",
       "Glyph": "Field",
       "GlyphChar": "F"
     },
     {
-      "Name": "Column1",
-      "ReplacementText": "Column1",
+      "Name": "atan",
+      "ReplacementText": "atan",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "atan2",
+      "ReplacementText": "atan2",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "bigint",
+      "ReplacementText": "bigint",
+      "Glyph": "Struct",
+      "GlyphChar": "S"
+    },
+    {
+      "Name": "bool",
+      "ReplacementText": "bool",
+      "Glyph": "Struct",
+      "GlyphChar": "S"
+    },
+    {
+      "Name": "box",
+      "ReplacementText": "box",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "byref",
+      "ReplacementText": "byref",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "byte",
+      "ReplacementText": "byte",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ceil",
+      "ReplacementText": "ceil",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "char",
+      "ReplacementText": "char",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "compare",
+      "ReplacementText": "compare",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "cos",
+      "ReplacementText": "cos",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "cosh",
+      "ReplacementText": "cosh",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "decimal",
+      "ReplacementText": "decimal",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "decr",
+      "ReplacementText": "decr",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "defaultArg",
+      "ReplacementText": "defaultArg",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "dict",
+      "ReplacementText": "dict",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "double",
+      "ReplacementText": "double",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "enum",
+      "ReplacementText": "enum",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "eprintf",
+      "ReplacementText": "eprintf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "eprintfn",
+      "ReplacementText": "eprintfn",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "exit",
+      "ReplacementText": "exit",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "exn",
+      "ReplacementText": "exn",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "exp",
+      "ReplacementText": "exp",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "failwith",
+      "ReplacementText": "failwith",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "failwithf",
+      "ReplacementText": "failwithf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "float",
+      "ReplacementText": "float",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "float32",
+      "ReplacementText": "float32",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "floor",
+      "ReplacementText": "floor",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "fprintf",
+      "ReplacementText": "fprintf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "fprintfn",
+      "ReplacementText": "fprintfn",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "fsi",
+      "ReplacementText": "fsi",
       "Glyph": "Field",
       "GlyphChar": "F"
+    },
+    {
+      "Name": "fst",
+      "ReplacementText": "fst",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "hash",
+      "ReplacementText": "hash",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "id",
+      "ReplacementText": "id",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ignore",
+      "ReplacementText": "ignore",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ilsigptr",
+      "ReplacementText": "ilsigptr",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "incr",
+      "ReplacementText": "incr",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "infinity",
+      "ReplacementText": "infinity",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "infinityf",
+      "ReplacementText": "infinityf",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "int",
+      "ReplacementText": "int",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int16",
+      "ReplacementText": "int16",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int32",
+      "ReplacementText": "int32",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int64",
+      "ReplacementText": "int64",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int8",
+      "ReplacementText": "int8",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "invalidArg",
+      "ReplacementText": "invalidArg",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "invalidOp",
+      "ReplacementText": "invalidOp",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "isNull",
+      "ReplacementText": "isNull",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "limitedHash",
+      "ReplacementText": "limitedHash",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "list",
+      "ReplacementText": "list",
+      "Glyph": "Type",
+      "GlyphChar": "T"
+    },
+    {
+      "Name": "lock",
+      "ReplacementText": "lock",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "log",
+      "ReplacementText": "log",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "log10",
+      "ReplacementText": "log10",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "max",
+      "ReplacementText": "max",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "min",
+      "ReplacementText": "min",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "nan",
+      "ReplacementText": "nan",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "nanf",
+      "ReplacementText": "nanf",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "nativeint",
+      "ReplacementText": "nativeint",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "nativeptr",
+      "ReplacementText": "nativeptr",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "not",
+      "ReplacementText": "not",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "nullArg",
+      "ReplacementText": "nullArg",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "obj",
+      "ReplacementText": "obj",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "option",
+      "ReplacementText": "option",
+      "Glyph": "Type",
+      "GlyphChar": "T"
+    },
+    {
+      "Name": "pown",
+      "ReplacementText": "pown",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "printf",
+      "ReplacementText": "printf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "printfn",
+      "ReplacementText": "printfn",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "query",
+      "ReplacementText": "query",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "raise",
+      "ReplacementText": "raise",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ref",
+      "ReplacementText": "ref",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "reraise",
+      "ReplacementText": "reraise",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "round",
+      "ReplacementText": "round",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sbyte",
+      "ReplacementText": "sbyte",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "seq",
+      "ReplacementText": "seq",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "set",
+      "ReplacementText": "set",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sign",
+      "ReplacementText": "sign",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sin",
+      "ReplacementText": "sin",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "single",
+      "ReplacementText": "single",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sinh",
+      "ReplacementText": "sinh",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sizeof",
+      "ReplacementText": "sizeof",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "snd",
+      "ReplacementText": "snd",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sprintf",
+      "ReplacementText": "sprintf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sqrt",
+      "ReplacementText": "sqrt",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "stderr",
+      "ReplacementText": "stderr",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "stdin",
+      "ReplacementText": "stdin",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "stdout",
+      "ReplacementText": "stdout",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "string",
+      "ReplacementText": "string",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "tan",
+      "ReplacementText": "tan",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "tanh",
+      "ReplacementText": "tanh",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "truncate",
+      "ReplacementText": "truncate",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "tryUnbox",
+      "ReplacementText": "tryUnbox",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "typedefof",
+      "ReplacementText": "typedefof",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "typeof",
+      "ReplacementText": "typeof",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "uint16",
+      "ReplacementText": "uint16",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "uint32",
+      "ReplacementText": "uint32",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "uint64",
+      "ReplacementText": "uint64",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "uint8",
+      "ReplacementText": "uint8",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "unativeint",
+      "ReplacementText": "unativeint",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "unbox",
+      "ReplacementText": "unbox",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "unit",
+      "ReplacementText": "unit",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "using",
+      "ReplacementText": "using",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    }
+  ]
+}
+{
+  "Kind": "helptext",
+  "Data": {
+    "Name": "CLIEventAttribute",
+    "Overloads": [
+      [
+        {
+          "Signature": "new : unit -> CLIEventAttribute",
+          "Comment": "Creates an instance of the attribute\n\n"
+        }
+      ],
+      [
+        {
+          "Signature": "type CLIEventAttribute =\n  inherit Attribute\n  new : unit -> CLIEventAttribute",
+          "Comment": "Adding this attribute to a property with event type causes it to be compiled with as a CLI\n metadata event, through a syntactic translation to a pair of 'add_EventName' and \n 'remove_EventName' methods.\n\n"
+        }
+      ]
+    ]
+  }
+}
+{
+  "Kind": "completion",
+  "Data": [
+    {
+      "Name": "AbstractClassAttribute",
+      "ReplacementText": "AbstractClassAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AllowNullLiteralAttribute",
+      "ReplacementText": "AllowNullLiteralAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Array",
+      "ReplacementText": "Array",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Array2D",
+      "ReplacementText": "Array2D",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Array3D",
+      "ReplacementText": "Array3D",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Array4D",
+      "ReplacementText": "Array4D",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Async",
+      "ReplacementText": "Async",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AsyncBuilder",
+      "ReplacementText": "AsyncBuilder",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AsyncReplyChannel",
+      "ReplacementText": "AsyncReplyChannel",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AutoOpenAttribute",
+      "ReplacementText": "AutoOpenAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AutoSerializableAttribute",
+      "ReplacementText": "AutoSerializableAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CLIEventAttribute",
+      "ReplacementText": "CLIEventAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CLIMutableAttribute",
+      "ReplacementText": "CLIMutableAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Checked",
+      "ReplacementText": "Checked",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Choice",
+      "ReplacementText": "Choice",
+      "Glyph": "Type",
+      "GlyphChar": "T"
+    },
+    {
+      "Name": "Choice1Of2",
+      "ReplacementText": "Choice1Of2",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of3",
+      "ReplacementText": "Choice1Of3",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of4",
+      "ReplacementText": "Choice1Of4",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of5",
+      "ReplacementText": "Choice1Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of6",
+      "ReplacementText": "Choice1Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of7",
+      "ReplacementText": "Choice1Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of2",
+      "ReplacementText": "Choice2Of2",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of3",
+      "ReplacementText": "Choice2Of3",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of4",
+      "ReplacementText": "Choice2Of4",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of5",
+      "ReplacementText": "Choice2Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of6",
+      "ReplacementText": "Choice2Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of7",
+      "ReplacementText": "Choice2Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of3",
+      "ReplacementText": "Choice3Of3",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of4",
+      "ReplacementText": "Choice3Of4",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of5",
+      "ReplacementText": "Choice3Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of6",
+      "ReplacementText": "Choice3Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of7",
+      "ReplacementText": "Choice3Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of4",
+      "ReplacementText": "Choice4Of4",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of5",
+      "ReplacementText": "Choice4Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of6",
+      "ReplacementText": "Choice4Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of7",
+      "ReplacementText": "Choice4Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice5Of5",
+      "ReplacementText": "Choice5Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice5Of6",
+      "ReplacementText": "Choice5Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice5Of7",
+      "ReplacementText": "Choice5Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice6Of6",
+      "ReplacementText": "Choice6Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice6Of7",
+      "ReplacementText": "Choice6Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice7Of7",
+      "ReplacementText": "Choice7Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "ClassAttribute",
+      "ReplacementText": "ClassAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Collections",
+      "ReplacementText": "Collections",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "CommonExtensions",
+      "ReplacementText": "CommonExtensions",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "ComparisonConditionalOnAttribute",
+      "ReplacementText": "ComparisonConditionalOnAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ComparisonIdentity",
+      "ReplacementText": "ComparisonIdentity",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "CompilationArgumentCountsAttribute",
+      "ReplacementText": "CompilationArgumentCountsAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilationMappingAttribute",
+      "ReplacementText": "CompilationMappingAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilationRepresentationAttribute",
+      "ReplacementText": "CompilationRepresentationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilationRepresentationFlags",
+      "ReplacementText": "CompilationRepresentationFlags",
+      "Glyph": "Enum",
+      "GlyphChar": "E"
+    },
+    {
+      "Name": "CompilationSourceNameAttribute",
+      "ReplacementText": "CompilationSourceNameAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompiledNameAttribute",
+      "ReplacementText": "CompiledNameAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilerMessageAttribute",
+      "ReplacementText": "CompilerMessageAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilerServices",
+      "ReplacementText": "CompilerServices",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Control",
+      "ReplacementText": "Control",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Core",
+      "ReplacementText": "Core",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "CustomComparisonAttribute",
+      "ReplacementText": "CustomComparisonAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CustomEqualityAttribute",
+      "ReplacementText": "CustomEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CustomOperationAttribute",
+      "ReplacementText": "CustomOperationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Data",
+      "ReplacementText": "Data",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "DefaultAugmentationAttribute",
+      "ReplacementText": "DefaultAugmentationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "DefaultValueAttribute",
+      "ReplacementText": "DefaultValueAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "DelegateEvent",
+      "ReplacementText": "DelegateEvent",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "EntryPointAttribute",
+      "ReplacementText": "EntryPointAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "EqualityConditionalOnAttribute",
+      "ReplacementText": "EqualityConditionalOnAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Event",
+      "ReplacementText": "Event",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "ExperimentalAttribute",
+      "ReplacementText": "ExperimentalAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ExtraTopLevelOperators",
+      "ReplacementText": "ExtraTopLevelOperators",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "FSharp",
+      "ReplacementText": "FSharp",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "FSharpFunc",
+      "ReplacementText": "FSharpFunc",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "FSharpInterfaceDataVersionAttribute",
+      "ReplacementText": "FSharpInterfaceDataVersionAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "FSharpTypeFunc",
+      "ReplacementText": "FSharpTypeFunc",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "Failure",
+      "ReplacementText": "Failure",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "Format",
+      "ReplacementText": "Format",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "FuncConvert",
+      "ReplacementText": "FuncConvert",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "GeneralizableValueAttribute",
+      "ReplacementText": "GeneralizableValueAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Handler",
+      "ReplacementText": "Handler",
+      "Glyph": "Delegate",
+      "GlyphChar": "D"
+    },
+    {
+      "Name": "HashIdentity",
+      "ReplacementText": "HashIdentity",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "IDelegateEvent",
+      "ReplacementText": "IDelegateEvent",
+      "Glyph": "Interface",
+      "GlyphChar": "I"
+    },
+    {
+      "Name": "IEvent",
+      "ReplacementText": "IEvent",
+      "Glyph": "Interface",
+      "GlyphChar": "I"
+    },
+    {
+      "Name": "InterfaceAttribute",
+      "ReplacementText": "InterfaceAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "KeyValue",
+      "ReplacementText": "KeyValue",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "LanguagePrimitives",
+      "ReplacementText": "LanguagePrimitives",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Lazy",
+      "ReplacementText": "Lazy",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "LazyExtensions",
+      "ReplacementText": "LazyExtensions",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Linq",
+      "ReplacementText": "Linq",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "List",
+      "ReplacementText": "List",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "LiteralAttribute",
+      "ReplacementText": "LiteralAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "MailboxProcessor",
+      "ReplacementText": "MailboxProcessor",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Map",
+      "ReplacementText": "Map",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "MatchFailureException",
+      "ReplacementText": "MatchFailureException",
+      "Glyph": "Exception",
+      "GlyphChar": "X"
+    },
+    {
+      "Name": "MeasureAnnotatedAbbreviationAttribute",
+      "ReplacementText": "MeasureAnnotatedAbbreviationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "MeasureAttribute",
+      "ReplacementText": "MeasureAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Microsoft",
+      "ReplacementText": "Microsoft",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Mono",
+      "ReplacementText": "Mono",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "NativeInterop",
+      "ReplacementText": "NativeInterop",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "NoComparisonAttribute",
+      "ReplacementText": "NoComparisonAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "NoDynamicInvocationAttribute",
+      "ReplacementText": "NoDynamicInvocationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "NoEqualityAttribute",
+      "ReplacementText": "NoEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "NonStructuralComparison",
+      "ReplacementText": "NonStructuralComparison",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "None",
+      "ReplacementText": "None",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "NumericLiteralI",
+      "ReplacementText": "NumericLiteralI",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "NumericLiterals",
+      "ReplacementText": "NumericLiterals",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Observable",
+      "ReplacementText": "Observable",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "OperatorIntrinsics",
+      "ReplacementText": "OperatorIntrinsics",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Operators",
+      "ReplacementText": "Operators",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "OptimizedClosures",
+      "ReplacementText": "OptimizedClosures",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Option",
+      "ReplacementText": "Option",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "OptionalArgumentAttribute",
+      "ReplacementText": "OptionalArgumentAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Printf",
+      "ReplacementText": "Printf",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "PrintfFormat",
+      "ReplacementText": "PrintfFormat",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ProjectionParameterAttribute",
+      "ReplacementText": "ProjectionParameterAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Quotations",
+      "ReplacementText": "Quotations",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "ReferenceEqualityAttribute",
+      "ReplacementText": "ReferenceEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ReflectedDefinitionAttribute",
+      "ReplacementText": "ReflectedDefinitionAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Reflection",
+      "ReplacementText": "Reflection",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "RequireQualifiedAccessAttribute",
+      "ReplacementText": "RequireQualifiedAccessAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "RequiresExplicitTypeArgumentsAttribute",
+      "ReplacementText": "RequiresExplicitTypeArgumentsAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ResizeArray",
+      "ReplacementText": "ResizeArray",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "SealedAttribute",
+      "ReplacementText": "SealedAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Seq",
+      "ReplacementText": "Seq",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Set",
+      "ReplacementText": "Set",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Some",
+      "ReplacementText": "Some",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "SourceConstructFlags",
+      "ReplacementText": "SourceConstructFlags",
+      "Glyph": "Enum",
+      "GlyphChar": "E"
+    },
+    {
+      "Name": "String",
+      "ReplacementText": "String",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "StructAttribute",
+      "ReplacementText": "StructAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "StructuralComparisonAttribute",
+      "ReplacementText": "StructuralComparisonAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "StructuralEqualityAttribute",
+      "ReplacementText": "StructuralEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "StructuredFormatDisplayAttribute",
+      "ReplacementText": "StructuredFormatDisplayAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "System",
+      "ReplacementText": "System",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Unchecked",
+      "ReplacementText": "Unchecked",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "UnverifiableAttribute",
+      "ReplacementText": "UnverifiableAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "VolatileFieldAttribute",
+      "ReplacementText": "VolatileFieldAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "WebExtensions",
+      "ReplacementText": "WebExtensions",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "X",
+      "ReplacementText": "X",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "abs",
+      "ReplacementText": "abs",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "acos",
+      "ReplacementText": "acos",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "array",
+      "ReplacementText": "array",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "array2D",
+      "ReplacementText": "array2D",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "asin",
+      "ReplacementText": "asin",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "async",
+      "ReplacementText": "async",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "atan",
+      "ReplacementText": "atan",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "atan2",
+      "ReplacementText": "atan2",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "bigint",
+      "ReplacementText": "bigint",
+      "Glyph": "Struct",
+      "GlyphChar": "S"
+    },
+    {
+      "Name": "bool",
+      "ReplacementText": "bool",
+      "Glyph": "Struct",
+      "GlyphChar": "S"
+    },
+    {
+      "Name": "box",
+      "ReplacementText": "box",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "byref",
+      "ReplacementText": "byref",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "byte",
+      "ReplacementText": "byte",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ceil",
+      "ReplacementText": "ceil",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "char",
+      "ReplacementText": "char",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "compare",
+      "ReplacementText": "compare",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "cos",
+      "ReplacementText": "cos",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "cosh",
+      "ReplacementText": "cosh",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "decimal",
+      "ReplacementText": "decimal",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "decr",
+      "ReplacementText": "decr",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "defaultArg",
+      "ReplacementText": "defaultArg",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "dict",
+      "ReplacementText": "dict",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "double",
+      "ReplacementText": "double",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "enum",
+      "ReplacementText": "enum",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "eprintf",
+      "ReplacementText": "eprintf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "eprintfn",
+      "ReplacementText": "eprintfn",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "exit",
+      "ReplacementText": "exit",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "exn",
+      "ReplacementText": "exn",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "exp",
+      "ReplacementText": "exp",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "failwith",
+      "ReplacementText": "failwith",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "failwithf",
+      "ReplacementText": "failwithf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "float",
+      "ReplacementText": "float",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "float32",
+      "ReplacementText": "float32",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "floor",
+      "ReplacementText": "floor",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "fprintf",
+      "ReplacementText": "fprintf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "fprintfn",
+      "ReplacementText": "fprintfn",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "fsi",
+      "ReplacementText": "fsi",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "fst",
+      "ReplacementText": "fst",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "hash",
+      "ReplacementText": "hash",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "id",
+      "ReplacementText": "id",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ignore",
+      "ReplacementText": "ignore",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ilsigptr",
+      "ReplacementText": "ilsigptr",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "incr",
+      "ReplacementText": "incr",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "infinity",
+      "ReplacementText": "infinity",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "infinityf",
+      "ReplacementText": "infinityf",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "int",
+      "ReplacementText": "int",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int16",
+      "ReplacementText": "int16",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int32",
+      "ReplacementText": "int32",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int64",
+      "ReplacementText": "int64",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int8",
+      "ReplacementText": "int8",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "invalidArg",
+      "ReplacementText": "invalidArg",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "invalidOp",
+      "ReplacementText": "invalidOp",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "isNull",
+      "ReplacementText": "isNull",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "limitedHash",
+      "ReplacementText": "limitedHash",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "list",
+      "ReplacementText": "list",
+      "Glyph": "Type",
+      "GlyphChar": "T"
+    },
+    {
+      "Name": "lock",
+      "ReplacementText": "lock",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "log",
+      "ReplacementText": "log",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "log10",
+      "ReplacementText": "log10",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "max",
+      "ReplacementText": "max",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "min",
+      "ReplacementText": "min",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "nan",
+      "ReplacementText": "nan",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "nanf",
+      "ReplacementText": "nanf",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "nativeint",
+      "ReplacementText": "nativeint",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "nativeptr",
+      "ReplacementText": "nativeptr",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "not",
+      "ReplacementText": "not",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "nullArg",
+      "ReplacementText": "nullArg",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "obj",
+      "ReplacementText": "obj",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "option",
+      "ReplacementText": "option",
+      "Glyph": "Type",
+      "GlyphChar": "T"
+    },
+    {
+      "Name": "pown",
+      "ReplacementText": "pown",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "printf",
+      "ReplacementText": "printf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "printfn",
+      "ReplacementText": "printfn",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "query",
+      "ReplacementText": "query",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "raise",
+      "ReplacementText": "raise",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ref",
+      "ReplacementText": "ref",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "reraise",
+      "ReplacementText": "reraise",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "round",
+      "ReplacementText": "round",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sbyte",
+      "ReplacementText": "sbyte",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "seq",
+      "ReplacementText": "seq",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "set",
+      "ReplacementText": "set",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sign",
+      "ReplacementText": "sign",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sin",
+      "ReplacementText": "sin",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "single",
+      "ReplacementText": "single",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sinh",
+      "ReplacementText": "sinh",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sizeof",
+      "ReplacementText": "sizeof",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "snd",
+      "ReplacementText": "snd",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sprintf",
+      "ReplacementText": "sprintf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sqrt",
+      "ReplacementText": "sqrt",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "stderr",
+      "ReplacementText": "stderr",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "stdin",
+      "ReplacementText": "stdin",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "stdout",
+      "ReplacementText": "stdout",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "string",
+      "ReplacementText": "string",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "tan",
+      "ReplacementText": "tan",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "tanh",
+      "ReplacementText": "tanh",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "truncate",
+      "ReplacementText": "truncate",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "tryUnbox",
+      "ReplacementText": "tryUnbox",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "typedefof",
+      "ReplacementText": "typedefof",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "typeof",
+      "ReplacementText": "typeof",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "uint16",
+      "ReplacementText": "uint16",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "uint32",
+      "ReplacementText": "uint32",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "uint64",
+      "ReplacementText": "uint64",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "uint8",
+      "ReplacementText": "uint8",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "unativeint",
+      "ReplacementText": "unativeint",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "unbox",
+      "ReplacementText": "unbox",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "unit",
+      "ReplacementText": "unit",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "using",
+      "ReplacementText": "using",
+      "Glyph": "Method",
+      "GlyphChar": "M"
     }
   ]
 }
@@ -235,12 +3123,12 @@
 {
   "Kind": "helptext",
   "Data": {
-    "Name": "Column Two",
+    "Name": "tan",
     "Overloads": [
       [
         {
-          "Signature": "property Y.Column Two: int",
-          "Comment": ""
+          "Signature": "val tan : value:'T -> 'T (requires member Tan)",
+          "Comment": "Tangent of the given number\n\nvalue: The input value."
         }
       ]
     ]
@@ -250,34 +3138,1468 @@
   "Kind": "completion",
   "Data": [
     {
-      "Name": "Another`Column",
-      "ReplacementText": "``Another`Column``",
+      "Name": "AbstractClassAttribute",
+      "ReplacementText": "AbstractClassAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AllowNullLiteralAttribute",
+      "ReplacementText": "AllowNullLiteralAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Array",
+      "ReplacementText": "Array",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Array2D",
+      "ReplacementText": "Array2D",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Array3D",
+      "ReplacementText": "Array3D",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Array4D",
+      "ReplacementText": "Array4D",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Async",
+      "ReplacementText": "Async",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AsyncBuilder",
+      "ReplacementText": "AsyncBuilder",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AsyncReplyChannel",
+      "ReplacementText": "AsyncReplyChannel",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AutoOpenAttribute",
+      "ReplacementText": "AutoOpenAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AutoSerializableAttribute",
+      "ReplacementText": "AutoSerializableAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CLIEventAttribute",
+      "ReplacementText": "CLIEventAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CLIMutableAttribute",
+      "ReplacementText": "CLIMutableAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Checked",
+      "ReplacementText": "Checked",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Choice",
+      "ReplacementText": "Choice",
+      "Glyph": "Type",
+      "GlyphChar": "T"
+    },
+    {
+      "Name": "Choice1Of2",
+      "ReplacementText": "Choice1Of2",
       "Glyph": "Property",
       "GlyphChar": "P"
     },
     {
-      "Name": "Column Two",
-      "ReplacementText": "``Column Two``",
+      "Name": "Choice1Of3",
+      "ReplacementText": "Choice1Of3",
       "Glyph": "Property",
       "GlyphChar": "P"
     },
     {
-      "Name": "Column1",
-      "ReplacementText": "Column1",
+      "Name": "Choice1Of4",
+      "ReplacementText": "Choice1Of4",
       "Glyph": "Property",
       "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of5",
+      "ReplacementText": "Choice1Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of6",
+      "ReplacementText": "Choice1Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of7",
+      "ReplacementText": "Choice1Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of2",
+      "ReplacementText": "Choice2Of2",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of3",
+      "ReplacementText": "Choice2Of3",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of4",
+      "ReplacementText": "Choice2Of4",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of5",
+      "ReplacementText": "Choice2Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of6",
+      "ReplacementText": "Choice2Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of7",
+      "ReplacementText": "Choice2Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of3",
+      "ReplacementText": "Choice3Of3",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of4",
+      "ReplacementText": "Choice3Of4",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of5",
+      "ReplacementText": "Choice3Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of6",
+      "ReplacementText": "Choice3Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of7",
+      "ReplacementText": "Choice3Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of4",
+      "ReplacementText": "Choice4Of4",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of5",
+      "ReplacementText": "Choice4Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of6",
+      "ReplacementText": "Choice4Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of7",
+      "ReplacementText": "Choice4Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice5Of5",
+      "ReplacementText": "Choice5Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice5Of6",
+      "ReplacementText": "Choice5Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice5Of7",
+      "ReplacementText": "Choice5Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice6Of6",
+      "ReplacementText": "Choice6Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice6Of7",
+      "ReplacementText": "Choice6Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice7Of7",
+      "ReplacementText": "Choice7Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "ClassAttribute",
+      "ReplacementText": "ClassAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Collections",
+      "ReplacementText": "Collections",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "CommonExtensions",
+      "ReplacementText": "CommonExtensions",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "ComparisonConditionalOnAttribute",
+      "ReplacementText": "ComparisonConditionalOnAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ComparisonIdentity",
+      "ReplacementText": "ComparisonIdentity",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "CompilationArgumentCountsAttribute",
+      "ReplacementText": "CompilationArgumentCountsAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilationMappingAttribute",
+      "ReplacementText": "CompilationMappingAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilationRepresentationAttribute",
+      "ReplacementText": "CompilationRepresentationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilationRepresentationFlags",
+      "ReplacementText": "CompilationRepresentationFlags",
+      "Glyph": "Enum",
+      "GlyphChar": "E"
+    },
+    {
+      "Name": "CompilationSourceNameAttribute",
+      "ReplacementText": "CompilationSourceNameAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompiledNameAttribute",
+      "ReplacementText": "CompiledNameAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilerMessageAttribute",
+      "ReplacementText": "CompilerMessageAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilerServices",
+      "ReplacementText": "CompilerServices",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Control",
+      "ReplacementText": "Control",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Core",
+      "ReplacementText": "Core",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "CustomComparisonAttribute",
+      "ReplacementText": "CustomComparisonAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CustomEqualityAttribute",
+      "ReplacementText": "CustomEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CustomOperationAttribute",
+      "ReplacementText": "CustomOperationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Data",
+      "ReplacementText": "Data",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "DefaultAugmentationAttribute",
+      "ReplacementText": "DefaultAugmentationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "DefaultValueAttribute",
+      "ReplacementText": "DefaultValueAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "DelegateEvent",
+      "ReplacementText": "DelegateEvent",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "EntryPointAttribute",
+      "ReplacementText": "EntryPointAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "EqualityConditionalOnAttribute",
+      "ReplacementText": "EqualityConditionalOnAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Event",
+      "ReplacementText": "Event",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "ExperimentalAttribute",
+      "ReplacementText": "ExperimentalAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ExtraTopLevelOperators",
+      "ReplacementText": "ExtraTopLevelOperators",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "FSharp",
+      "ReplacementText": "FSharp",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "FSharpFunc",
+      "ReplacementText": "FSharpFunc",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "FSharpInterfaceDataVersionAttribute",
+      "ReplacementText": "FSharpInterfaceDataVersionAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "FSharpTypeFunc",
+      "ReplacementText": "FSharpTypeFunc",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "Failure",
+      "ReplacementText": "Failure",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "Format",
+      "ReplacementText": "Format",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "FuncConvert",
+      "ReplacementText": "FuncConvert",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "GeneralizableValueAttribute",
+      "ReplacementText": "GeneralizableValueAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Handler",
+      "ReplacementText": "Handler",
+      "Glyph": "Delegate",
+      "GlyphChar": "D"
+    },
+    {
+      "Name": "HashIdentity",
+      "ReplacementText": "HashIdentity",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "IDelegateEvent",
+      "ReplacementText": "IDelegateEvent",
+      "Glyph": "Interface",
+      "GlyphChar": "I"
+    },
+    {
+      "Name": "IEvent",
+      "ReplacementText": "IEvent",
+      "Glyph": "Interface",
+      "GlyphChar": "I"
+    },
+    {
+      "Name": "InterfaceAttribute",
+      "ReplacementText": "InterfaceAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "KeyValue",
+      "ReplacementText": "KeyValue",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "LanguagePrimitives",
+      "ReplacementText": "LanguagePrimitives",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Lazy",
+      "ReplacementText": "Lazy",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "LazyExtensions",
+      "ReplacementText": "LazyExtensions",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Linq",
+      "ReplacementText": "Linq",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "List",
+      "ReplacementText": "List",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "LiteralAttribute",
+      "ReplacementText": "LiteralAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "MailboxProcessor",
+      "ReplacementText": "MailboxProcessor",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Map",
+      "ReplacementText": "Map",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "MatchFailureException",
+      "ReplacementText": "MatchFailureException",
+      "Glyph": "Exception",
+      "GlyphChar": "X"
+    },
+    {
+      "Name": "MeasureAnnotatedAbbreviationAttribute",
+      "ReplacementText": "MeasureAnnotatedAbbreviationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "MeasureAttribute",
+      "ReplacementText": "MeasureAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Microsoft",
+      "ReplacementText": "Microsoft",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Mono",
+      "ReplacementText": "Mono",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "NativeInterop",
+      "ReplacementText": "NativeInterop",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "NoComparisonAttribute",
+      "ReplacementText": "NoComparisonAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "NoDynamicInvocationAttribute",
+      "ReplacementText": "NoDynamicInvocationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "NoEqualityAttribute",
+      "ReplacementText": "NoEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "NonStructuralComparison",
+      "ReplacementText": "NonStructuralComparison",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "None",
+      "ReplacementText": "None",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "NumericLiteralI",
+      "ReplacementText": "NumericLiteralI",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "NumericLiterals",
+      "ReplacementText": "NumericLiterals",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Observable",
+      "ReplacementText": "Observable",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "OperatorIntrinsics",
+      "ReplacementText": "OperatorIntrinsics",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Operators",
+      "ReplacementText": "Operators",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "OptimizedClosures",
+      "ReplacementText": "OptimizedClosures",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Option",
+      "ReplacementText": "Option",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "OptionalArgumentAttribute",
+      "ReplacementText": "OptionalArgumentAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Printf",
+      "ReplacementText": "Printf",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "PrintfFormat",
+      "ReplacementText": "PrintfFormat",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ProjectionParameterAttribute",
+      "ReplacementText": "ProjectionParameterAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Quotations",
+      "ReplacementText": "Quotations",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "ReferenceEqualityAttribute",
+      "ReplacementText": "ReferenceEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ReflectedDefinitionAttribute",
+      "ReplacementText": "ReflectedDefinitionAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Reflection",
+      "ReplacementText": "Reflection",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "RequireQualifiedAccessAttribute",
+      "ReplacementText": "RequireQualifiedAccessAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "RequiresExplicitTypeArgumentsAttribute",
+      "ReplacementText": "RequiresExplicitTypeArgumentsAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ResizeArray",
+      "ReplacementText": "ResizeArray",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "SealedAttribute",
+      "ReplacementText": "SealedAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Seq",
+      "ReplacementText": "Seq",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Set",
+      "ReplacementText": "Set",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Some",
+      "ReplacementText": "Some",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "SourceConstructFlags",
+      "ReplacementText": "SourceConstructFlags",
+      "Glyph": "Enum",
+      "GlyphChar": "E"
+    },
+    {
+      "Name": "String",
+      "ReplacementText": "String",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "StructAttribute",
+      "ReplacementText": "StructAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "StructuralComparisonAttribute",
+      "ReplacementText": "StructuralComparisonAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "StructuralEqualityAttribute",
+      "ReplacementText": "StructuralEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "StructuredFormatDisplayAttribute",
+      "ReplacementText": "StructuredFormatDisplayAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "System",
+      "ReplacementText": "System",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Unchecked",
+      "ReplacementText": "Unchecked",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "UnverifiableAttribute",
+      "ReplacementText": "UnverifiableAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "VolatileFieldAttribute",
+      "ReplacementText": "VolatileFieldAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "WebExtensions",
+      "ReplacementText": "WebExtensions",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Y",
+      "ReplacementText": "Y",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "abs",
+      "ReplacementText": "abs",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "acos",
+      "ReplacementText": "acos",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "array",
+      "ReplacementText": "array",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "array2D",
+      "ReplacementText": "array2D",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "asin",
+      "ReplacementText": "asin",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "async",
+      "ReplacementText": "async",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "atan",
+      "ReplacementText": "atan",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "atan2",
+      "ReplacementText": "atan2",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "bigint",
+      "ReplacementText": "bigint",
+      "Glyph": "Struct",
+      "GlyphChar": "S"
+    },
+    {
+      "Name": "bool",
+      "ReplacementText": "bool",
+      "Glyph": "Struct",
+      "GlyphChar": "S"
+    },
+    {
+      "Name": "box",
+      "ReplacementText": "box",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "byref",
+      "ReplacementText": "byref",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "byte",
+      "ReplacementText": "byte",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ceil",
+      "ReplacementText": "ceil",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "char",
+      "ReplacementText": "char",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "compare",
+      "ReplacementText": "compare",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "cos",
+      "ReplacementText": "cos",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "cosh",
+      "ReplacementText": "cosh",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "decimal",
+      "ReplacementText": "decimal",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "decr",
+      "ReplacementText": "decr",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "defaultArg",
+      "ReplacementText": "defaultArg",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "dict",
+      "ReplacementText": "dict",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "double",
+      "ReplacementText": "double",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "enum",
+      "ReplacementText": "enum",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "eprintf",
+      "ReplacementText": "eprintf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "eprintfn",
+      "ReplacementText": "eprintfn",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "exit",
+      "ReplacementText": "exit",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "exn",
+      "ReplacementText": "exn",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "exp",
+      "ReplacementText": "exp",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "failwith",
+      "ReplacementText": "failwith",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "failwithf",
+      "ReplacementText": "failwithf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "float",
+      "ReplacementText": "float",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "float32",
+      "ReplacementText": "float32",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "floor",
+      "ReplacementText": "floor",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "fprintf",
+      "ReplacementText": "fprintf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "fprintfn",
+      "ReplacementText": "fprintfn",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "fsi",
+      "ReplacementText": "fsi",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "fst",
+      "ReplacementText": "fst",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "hash",
+      "ReplacementText": "hash",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "id",
+      "ReplacementText": "id",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ignore",
+      "ReplacementText": "ignore",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ilsigptr",
+      "ReplacementText": "ilsigptr",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "incr",
+      "ReplacementText": "incr",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "infinity",
+      "ReplacementText": "infinity",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "infinityf",
+      "ReplacementText": "infinityf",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "int",
+      "ReplacementText": "int",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int16",
+      "ReplacementText": "int16",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int32",
+      "ReplacementText": "int32",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int64",
+      "ReplacementText": "int64",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int8",
+      "ReplacementText": "int8",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "invalidArg",
+      "ReplacementText": "invalidArg",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "invalidOp",
+      "ReplacementText": "invalidOp",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "isNull",
+      "ReplacementText": "isNull",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "limitedHash",
+      "ReplacementText": "limitedHash",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "list",
+      "ReplacementText": "list",
+      "Glyph": "Type",
+      "GlyphChar": "T"
+    },
+    {
+      "Name": "lock",
+      "ReplacementText": "lock",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "log",
+      "ReplacementText": "log",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "log10",
+      "ReplacementText": "log10",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "max",
+      "ReplacementText": "max",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "min",
+      "ReplacementText": "min",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "nan",
+      "ReplacementText": "nan",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "nanf",
+      "ReplacementText": "nanf",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "nativeint",
+      "ReplacementText": "nativeint",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "nativeptr",
+      "ReplacementText": "nativeptr",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "not",
+      "ReplacementText": "not",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "nullArg",
+      "ReplacementText": "nullArg",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "obj",
+      "ReplacementText": "obj",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "option",
+      "ReplacementText": "option",
+      "Glyph": "Type",
+      "GlyphChar": "T"
+    },
+    {
+      "Name": "pown",
+      "ReplacementText": "pown",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "printf",
+      "ReplacementText": "printf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "printfn",
+      "ReplacementText": "printfn",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "query",
+      "ReplacementText": "query",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "raise",
+      "ReplacementText": "raise",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ref",
+      "ReplacementText": "ref",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "reraise",
+      "ReplacementText": "reraise",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "round",
+      "ReplacementText": "round",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sbyte",
+      "ReplacementText": "sbyte",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "seq",
+      "ReplacementText": "seq",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "set",
+      "ReplacementText": "set",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sign",
+      "ReplacementText": "sign",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sin",
+      "ReplacementText": "sin",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "single",
+      "ReplacementText": "single",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sinh",
+      "ReplacementText": "sinh",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sizeof",
+      "ReplacementText": "sizeof",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "snd",
+      "ReplacementText": "snd",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sprintf",
+      "ReplacementText": "sprintf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sqrt",
+      "ReplacementText": "sqrt",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "stderr",
+      "ReplacementText": "stderr",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "stdin",
+      "ReplacementText": "stdin",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "stdout",
+      "ReplacementText": "stdout",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "string",
+      "ReplacementText": "string",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "tan",
+      "ReplacementText": "tan",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "tanh",
+      "ReplacementText": "tanh",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "truncate",
+      "ReplacementText": "truncate",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "tryUnbox",
+      "ReplacementText": "tryUnbox",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "typedefof",
+      "ReplacementText": "typedefof",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "typeof",
+      "ReplacementText": "typeof",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "uint16",
+      "ReplacementText": "uint16",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "uint32",
+      "ReplacementText": "uint32",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "uint64",
+      "ReplacementText": "uint64",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "uint8",
+      "ReplacementText": "uint8",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "unativeint",
+      "ReplacementText": "unativeint",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "unbox",
+      "ReplacementText": "unbox",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "unit",
+      "ReplacementText": "unit",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "using",
+      "ReplacementText": "using",
+      "Glyph": "Method",
+      "GlyphChar": "M"
     }
   ]
 }
 {
   "Kind": "helptext",
   "Data": {
-    "Name": "Another`Column",
+    "Name": "CLIEventAttribute",
     "Overloads": [
       [
         {
-          "Signature": "property Y.Another`Column: int",
-          "Comment": ""
+          "Signature": "new : unit -> CLIEventAttribute",
+          "Comment": "Creates an instance of the attribute\n\n"
+        }
+      ],
+      [
+        {
+          "Signature": "type CLIEventAttribute =\n  inherit Attribute\n  new : unit -> CLIEventAttribute",
+          "Comment": "Adding this attribute to a property with event type causes it to be compiled with as a CLI\n metadata event, through a syntactic translation to a pair of 'add_EventName' and \n 'remove_EventName' methods.\n\n"
         }
       ]
     ]
@@ -287,22 +4609,1450 @@
   "Kind": "completion",
   "Data": [
     {
-      "Name": "Another`Column",
-      "ReplacementText": "``Another`Column``",
+      "Name": "AbstractClassAttribute",
+      "ReplacementText": "AbstractClassAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AllowNullLiteralAttribute",
+      "ReplacementText": "AllowNullLiteralAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Array",
+      "ReplacementText": "Array",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Array2D",
+      "ReplacementText": "Array2D",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Array3D",
+      "ReplacementText": "Array3D",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Array4D",
+      "ReplacementText": "Array4D",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Async",
+      "ReplacementText": "Async",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AsyncBuilder",
+      "ReplacementText": "AsyncBuilder",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AsyncReplyChannel",
+      "ReplacementText": "AsyncReplyChannel",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AutoOpenAttribute",
+      "ReplacementText": "AutoOpenAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "AutoSerializableAttribute",
+      "ReplacementText": "AutoSerializableAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CLIEventAttribute",
+      "ReplacementText": "CLIEventAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CLIMutableAttribute",
+      "ReplacementText": "CLIMutableAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Checked",
+      "ReplacementText": "Checked",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Choice",
+      "ReplacementText": "Choice",
+      "Glyph": "Type",
+      "GlyphChar": "T"
+    },
+    {
+      "Name": "Choice1Of2",
+      "ReplacementText": "Choice1Of2",
       "Glyph": "Property",
       "GlyphChar": "P"
     },
     {
-      "Name": "Column Two",
-      "ReplacementText": "``Column Two``",
+      "Name": "Choice1Of3",
+      "ReplacementText": "Choice1Of3",
       "Glyph": "Property",
       "GlyphChar": "P"
     },
     {
-      "Name": "Column1",
-      "ReplacementText": "Column1",
+      "Name": "Choice1Of4",
+      "ReplacementText": "Choice1Of4",
       "Glyph": "Property",
       "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of5",
+      "ReplacementText": "Choice1Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of6",
+      "ReplacementText": "Choice1Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice1Of7",
+      "ReplacementText": "Choice1Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of2",
+      "ReplacementText": "Choice2Of2",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of3",
+      "ReplacementText": "Choice2Of3",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of4",
+      "ReplacementText": "Choice2Of4",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of5",
+      "ReplacementText": "Choice2Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of6",
+      "ReplacementText": "Choice2Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice2Of7",
+      "ReplacementText": "Choice2Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of3",
+      "ReplacementText": "Choice3Of3",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of4",
+      "ReplacementText": "Choice3Of4",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of5",
+      "ReplacementText": "Choice3Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of6",
+      "ReplacementText": "Choice3Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice3Of7",
+      "ReplacementText": "Choice3Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of4",
+      "ReplacementText": "Choice4Of4",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of5",
+      "ReplacementText": "Choice4Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of6",
+      "ReplacementText": "Choice4Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice4Of7",
+      "ReplacementText": "Choice4Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice5Of5",
+      "ReplacementText": "Choice5Of5",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice5Of6",
+      "ReplacementText": "Choice5Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice5Of7",
+      "ReplacementText": "Choice5Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice6Of6",
+      "ReplacementText": "Choice6Of6",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice6Of7",
+      "ReplacementText": "Choice6Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "Choice7Of7",
+      "ReplacementText": "Choice7Of7",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "ClassAttribute",
+      "ReplacementText": "ClassAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Collections",
+      "ReplacementText": "Collections",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "CommonExtensions",
+      "ReplacementText": "CommonExtensions",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "ComparisonConditionalOnAttribute",
+      "ReplacementText": "ComparisonConditionalOnAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ComparisonIdentity",
+      "ReplacementText": "ComparisonIdentity",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "CompilationArgumentCountsAttribute",
+      "ReplacementText": "CompilationArgumentCountsAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilationMappingAttribute",
+      "ReplacementText": "CompilationMappingAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilationRepresentationAttribute",
+      "ReplacementText": "CompilationRepresentationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilationRepresentationFlags",
+      "ReplacementText": "CompilationRepresentationFlags",
+      "Glyph": "Enum",
+      "GlyphChar": "E"
+    },
+    {
+      "Name": "CompilationSourceNameAttribute",
+      "ReplacementText": "CompilationSourceNameAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompiledNameAttribute",
+      "ReplacementText": "CompiledNameAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilerMessageAttribute",
+      "ReplacementText": "CompilerMessageAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CompilerServices",
+      "ReplacementText": "CompilerServices",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Control",
+      "ReplacementText": "Control",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Core",
+      "ReplacementText": "Core",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "CustomComparisonAttribute",
+      "ReplacementText": "CustomComparisonAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CustomEqualityAttribute",
+      "ReplacementText": "CustomEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "CustomOperationAttribute",
+      "ReplacementText": "CustomOperationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Data",
+      "ReplacementText": "Data",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "DefaultAugmentationAttribute",
+      "ReplacementText": "DefaultAugmentationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "DefaultValueAttribute",
+      "ReplacementText": "DefaultValueAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "DelegateEvent",
+      "ReplacementText": "DelegateEvent",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "EntryPointAttribute",
+      "ReplacementText": "EntryPointAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "EqualityConditionalOnAttribute",
+      "ReplacementText": "EqualityConditionalOnAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Event",
+      "ReplacementText": "Event",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "ExperimentalAttribute",
+      "ReplacementText": "ExperimentalAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ExtraTopLevelOperators",
+      "ReplacementText": "ExtraTopLevelOperators",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "FSharp",
+      "ReplacementText": "FSharp",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "FSharpFunc",
+      "ReplacementText": "FSharpFunc",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "FSharpInterfaceDataVersionAttribute",
+      "ReplacementText": "FSharpInterfaceDataVersionAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "FSharpTypeFunc",
+      "ReplacementText": "FSharpTypeFunc",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "Failure",
+      "ReplacementText": "Failure",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "Format",
+      "ReplacementText": "Format",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "FuncConvert",
+      "ReplacementText": "FuncConvert",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "GeneralizableValueAttribute",
+      "ReplacementText": "GeneralizableValueAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Handler",
+      "ReplacementText": "Handler",
+      "Glyph": "Delegate",
+      "GlyphChar": "D"
+    },
+    {
+      "Name": "HashIdentity",
+      "ReplacementText": "HashIdentity",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "IDelegateEvent",
+      "ReplacementText": "IDelegateEvent",
+      "Glyph": "Interface",
+      "GlyphChar": "I"
+    },
+    {
+      "Name": "IEvent",
+      "ReplacementText": "IEvent",
+      "Glyph": "Interface",
+      "GlyphChar": "I"
+    },
+    {
+      "Name": "InterfaceAttribute",
+      "ReplacementText": "InterfaceAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "KeyValue",
+      "ReplacementText": "KeyValue",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "LanguagePrimitives",
+      "ReplacementText": "LanguagePrimitives",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Lazy",
+      "ReplacementText": "Lazy",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "LazyExtensions",
+      "ReplacementText": "LazyExtensions",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Linq",
+      "ReplacementText": "Linq",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "List",
+      "ReplacementText": "List",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "LiteralAttribute",
+      "ReplacementText": "LiteralAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "MailboxProcessor",
+      "ReplacementText": "MailboxProcessor",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Map",
+      "ReplacementText": "Map",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "MatchFailureException",
+      "ReplacementText": "MatchFailureException",
+      "Glyph": "Exception",
+      "GlyphChar": "X"
+    },
+    {
+      "Name": "MeasureAnnotatedAbbreviationAttribute",
+      "ReplacementText": "MeasureAnnotatedAbbreviationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "MeasureAttribute",
+      "ReplacementText": "MeasureAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Microsoft",
+      "ReplacementText": "Microsoft",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Mono",
+      "ReplacementText": "Mono",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "NativeInterop",
+      "ReplacementText": "NativeInterop",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "NoComparisonAttribute",
+      "ReplacementText": "NoComparisonAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "NoDynamicInvocationAttribute",
+      "ReplacementText": "NoDynamicInvocationAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "NoEqualityAttribute",
+      "ReplacementText": "NoEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "NonStructuralComparison",
+      "ReplacementText": "NonStructuralComparison",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "None",
+      "ReplacementText": "None",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "NumericLiteralI",
+      "ReplacementText": "NumericLiteralI",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "NumericLiterals",
+      "ReplacementText": "NumericLiterals",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Observable",
+      "ReplacementText": "Observable",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "OperatorIntrinsics",
+      "ReplacementText": "OperatorIntrinsics",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Operators",
+      "ReplacementText": "Operators",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "OptimizedClosures",
+      "ReplacementText": "OptimizedClosures",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Option",
+      "ReplacementText": "Option",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "OptionalArgumentAttribute",
+      "ReplacementText": "OptionalArgumentAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Printf",
+      "ReplacementText": "Printf",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "PrintfFormat",
+      "ReplacementText": "PrintfFormat",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ProjectionParameterAttribute",
+      "ReplacementText": "ProjectionParameterAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Quotations",
+      "ReplacementText": "Quotations",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "ReferenceEqualityAttribute",
+      "ReplacementText": "ReferenceEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ReflectedDefinitionAttribute",
+      "ReplacementText": "ReflectedDefinitionAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Reflection",
+      "ReplacementText": "Reflection",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "RequireQualifiedAccessAttribute",
+      "ReplacementText": "RequireQualifiedAccessAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "RequiresExplicitTypeArgumentsAttribute",
+      "ReplacementText": "RequiresExplicitTypeArgumentsAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "ResizeArray",
+      "ReplacementText": "ResizeArray",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "SealedAttribute",
+      "ReplacementText": "SealedAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "Seq",
+      "ReplacementText": "Seq",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Set",
+      "ReplacementText": "Set",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Some",
+      "ReplacementText": "Some",
+      "Glyph": "Property",
+      "GlyphChar": "P"
+    },
+    {
+      "Name": "SourceConstructFlags",
+      "ReplacementText": "SourceConstructFlags",
+      "Glyph": "Enum",
+      "GlyphChar": "E"
+    },
+    {
+      "Name": "String",
+      "ReplacementText": "String",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "StructAttribute",
+      "ReplacementText": "StructAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "StructuralComparisonAttribute",
+      "ReplacementText": "StructuralComparisonAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "StructuralEqualityAttribute",
+      "ReplacementText": "StructuralEqualityAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "StructuredFormatDisplayAttribute",
+      "ReplacementText": "StructuredFormatDisplayAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "System",
+      "ReplacementText": "System",
+      "Glyph": "Namespace",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Unchecked",
+      "ReplacementText": "Unchecked",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "UnverifiableAttribute",
+      "ReplacementText": "UnverifiableAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "VolatileFieldAttribute",
+      "ReplacementText": "VolatileFieldAttribute",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "WebExtensions",
+      "ReplacementText": "WebExtensions",
+      "Glyph": "Module",
+      "GlyphChar": "N"
+    },
+    {
+      "Name": "Y",
+      "ReplacementText": "Y",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "abs",
+      "ReplacementText": "abs",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "acos",
+      "ReplacementText": "acos",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "array",
+      "ReplacementText": "array",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "array2D",
+      "ReplacementText": "array2D",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "asin",
+      "ReplacementText": "asin",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "async",
+      "ReplacementText": "async",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "atan",
+      "ReplacementText": "atan",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "atan2",
+      "ReplacementText": "atan2",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "bigint",
+      "ReplacementText": "bigint",
+      "Glyph": "Struct",
+      "GlyphChar": "S"
+    },
+    {
+      "Name": "bool",
+      "ReplacementText": "bool",
+      "Glyph": "Struct",
+      "GlyphChar": "S"
+    },
+    {
+      "Name": "box",
+      "ReplacementText": "box",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "byref",
+      "ReplacementText": "byref",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "byte",
+      "ReplacementText": "byte",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ceil",
+      "ReplacementText": "ceil",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "char",
+      "ReplacementText": "char",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "compare",
+      "ReplacementText": "compare",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "cos",
+      "ReplacementText": "cos",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "cosh",
+      "ReplacementText": "cosh",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "decimal",
+      "ReplacementText": "decimal",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "decr",
+      "ReplacementText": "decr",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "defaultArg",
+      "ReplacementText": "defaultArg",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "dict",
+      "ReplacementText": "dict",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "double",
+      "ReplacementText": "double",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "enum",
+      "ReplacementText": "enum",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "eprintf",
+      "ReplacementText": "eprintf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "eprintfn",
+      "ReplacementText": "eprintfn",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "exit",
+      "ReplacementText": "exit",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "exn",
+      "ReplacementText": "exn",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "exp",
+      "ReplacementText": "exp",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "failwith",
+      "ReplacementText": "failwith",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "failwithf",
+      "ReplacementText": "failwithf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "float",
+      "ReplacementText": "float",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "float32",
+      "ReplacementText": "float32",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "floor",
+      "ReplacementText": "floor",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "fprintf",
+      "ReplacementText": "fprintf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "fprintfn",
+      "ReplacementText": "fprintfn",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "fsi",
+      "ReplacementText": "fsi",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "fst",
+      "ReplacementText": "fst",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "hash",
+      "ReplacementText": "hash",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "id",
+      "ReplacementText": "id",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ignore",
+      "ReplacementText": "ignore",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ilsigptr",
+      "ReplacementText": "ilsigptr",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "incr",
+      "ReplacementText": "incr",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "infinity",
+      "ReplacementText": "infinity",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "infinityf",
+      "ReplacementText": "infinityf",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "int",
+      "ReplacementText": "int",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int16",
+      "ReplacementText": "int16",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int32",
+      "ReplacementText": "int32",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int64",
+      "ReplacementText": "int64",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "int8",
+      "ReplacementText": "int8",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "invalidArg",
+      "ReplacementText": "invalidArg",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "invalidOp",
+      "ReplacementText": "invalidOp",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "isNull",
+      "ReplacementText": "isNull",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "limitedHash",
+      "ReplacementText": "limitedHash",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "list",
+      "ReplacementText": "list",
+      "Glyph": "Type",
+      "GlyphChar": "T"
+    },
+    {
+      "Name": "lock",
+      "ReplacementText": "lock",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "log",
+      "ReplacementText": "log",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "log10",
+      "ReplacementText": "log10",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "max",
+      "ReplacementText": "max",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "min",
+      "ReplacementText": "min",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "nan",
+      "ReplacementText": "nan",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "nanf",
+      "ReplacementText": "nanf",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "nativeint",
+      "ReplacementText": "nativeint",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "nativeptr",
+      "ReplacementText": "nativeptr",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "not",
+      "ReplacementText": "not",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "nullArg",
+      "ReplacementText": "nullArg",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "obj",
+      "ReplacementText": "obj",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "option",
+      "ReplacementText": "option",
+      "Glyph": "Type",
+      "GlyphChar": "T"
+    },
+    {
+      "Name": "pown",
+      "ReplacementText": "pown",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "printf",
+      "ReplacementText": "printf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "printfn",
+      "ReplacementText": "printfn",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "query",
+      "ReplacementText": "query",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "raise",
+      "ReplacementText": "raise",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "ref",
+      "ReplacementText": "ref",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "reraise",
+      "ReplacementText": "reraise",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "round",
+      "ReplacementText": "round",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sbyte",
+      "ReplacementText": "sbyte",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "seq",
+      "ReplacementText": "seq",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "set",
+      "ReplacementText": "set",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sign",
+      "ReplacementText": "sign",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sin",
+      "ReplacementText": "sin",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "single",
+      "ReplacementText": "single",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sinh",
+      "ReplacementText": "sinh",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sizeof",
+      "ReplacementText": "sizeof",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "snd",
+      "ReplacementText": "snd",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sprintf",
+      "ReplacementText": "sprintf",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "sqrt",
+      "ReplacementText": "sqrt",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "stderr",
+      "ReplacementText": "stderr",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "stdin",
+      "ReplacementText": "stdin",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "stdout",
+      "ReplacementText": "stdout",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "string",
+      "ReplacementText": "string",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "tan",
+      "ReplacementText": "tan",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "tanh",
+      "ReplacementText": "tanh",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "truncate",
+      "ReplacementText": "truncate",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "tryUnbox",
+      "ReplacementText": "tryUnbox",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "typedefof",
+      "ReplacementText": "typedefof",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "typeof",
+      "ReplacementText": "typeof",
+      "Glyph": "Field",
+      "GlyphChar": "F"
+    },
+    {
+      "Name": "uint16",
+      "ReplacementText": "uint16",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "uint32",
+      "ReplacementText": "uint32",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "uint64",
+      "ReplacementText": "uint64",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "uint8",
+      "ReplacementText": "uint8",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "unativeint",
+      "ReplacementText": "unativeint",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "unbox",
+      "ReplacementText": "unbox",
+      "Glyph": "Method",
+      "GlyphChar": "M"
+    },
+    {
+      "Name": "unit",
+      "ReplacementText": "unit",
+      "Glyph": "Class",
+      "GlyphChar": "C"
+    },
+    {
+      "Name": "using",
+      "ReplacementText": "using",
+      "Glyph": "Method",
+      "GlyphChar": "M"
     }
   ]
 }

@@ -12,7 +12,6 @@ type ParseAndCheckResults
     ) =
 
   member __.TryGetMethodOverrides (lines: LineStr[]) (pos: Pos) = async {
-    // Find the starting point, ideally right after the first '('
     let lineCutoff = pos.Line - 6
     let commas, line, col =
       let rec prevPos (line,col) =
@@ -37,12 +36,18 @@ type ParseAndCheckResults
       | _, 1, 1 -> 0, pos.Line, pos.Col
       | newPos -> newPos
 
-    let lineStr = lines.[line - 1]
-    match Parsing.findLongIdents(col - 1, lineStr) with
-    | None -> return Failure "Could not find ident at this location"
-    | Some (_,identIsland) ->
 
-    let! meth = checkResults.GetMethodsAlternate(line, col, lineStr, Some identIsland)
+    let lineStr = lines.[pos.Line - 1]
+    let lineToCaret = lineStr.[0..pos.Col-1]
+    let column = lineToCaret |> Seq.tryFindIndexBack (fun c -> c <> '(' && c <> ' ')
+    match column with
+    | None -> return Failure "Could not find method at this location"
+    | Some col ->
+    match Parsing.findLongIdents(col - 1, lineToCaret) with
+    | None -> return Failure "Could not find ident at this location"
+    | Some (colu,identIsland) ->
+
+    let! meth = checkResults.GetMethodsAlternate(pos.Line, colu, lineToCaret, Some identIsland)
 
     return Success(meth, commas) }
 
@@ -51,7 +56,7 @@ type ParseAndCheckResults
     | None -> return Failure "Could not find ident at this location"
     | Some(col, identIsland) ->
 
-      let! declarations = checkResults.GetDeclarationLocationAlternate(pos.Line, col + 1, lineStr, identIsland, false)
+      let! declarations = checkResults.GetDeclarationLocationAlternate(pos.Line, col, lineStr, identIsland, false)
 
       match declarations with
       | FSharpFindDeclResult.DeclNotFound _ -> return Failure "Could not find declaration"
@@ -64,7 +69,7 @@ type ParseAndCheckResults
     | Some(col,identIsland) ->
 
       // TODO: Display other tooltip types, for example for strings or comments where appropriate
-      let! tip = checkResults.GetToolTipTextAlternate(pos.Line, col + 1, lineStr, identIsland, FSharpTokenTag.Identifier)
+      let! tip = checkResults.GetToolTipTextAlternate(pos.Line, col, lineStr, identIsland, FSharpTokenTag.Identifier)
 
       match tip with
       | FSharpToolTipText(elems) when elems |> List.forall (function
@@ -79,7 +84,7 @@ type ParseAndCheckResults
         | None -> return (Failure "No ident at this location")
         | Some(colu, identIsland) ->
 
-        let! symboluse = checkResults.GetSymbolUseAtLocation(pos.Line, colu + 1, lineStr, identIsland)
+        let! symboluse = checkResults.GetSymbolUseAtLocation(pos.Line, colu, lineStr, identIsland)
         match symboluse with
         | None -> return (Failure "No symbol information found")
         | Some symboluse ->
