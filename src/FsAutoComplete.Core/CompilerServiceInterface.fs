@@ -38,9 +38,9 @@ type ParseAndCheckResults
       | newPos -> newPos
 
     let lineStr = lines.[line - 1]
-    match Parsing.findLongIdentsAtGetMethodsTrigger(col - 1, lineStr) with
+    match Parsing.findLongIdents(col - 1, lineStr) with
     | None -> return Failure "Could not find ident at this location"
-    | Some identIsland ->
+    | Some (_,identIsland) ->
 
     let! meth = checkResults.GetMethodsAlternate(line, col, lineStr, Some identIsland)
 
@@ -112,7 +112,7 @@ type FSharpCompilerServiceChecker() =
       keepAllBackgroundResolutions = true,
       keepAssemblyContents = true)
 
-  do checker.BeforeBackgroundFileCheck.Add (fun _ -> ())
+  do checker.BeforeBackgroundFileCheck.Add ignore
 
   let ensureCorrectFSharpCore (options: string[]) =
     Environment.fsharpCoreOpt
@@ -207,8 +207,7 @@ type FSharpCompilerServiceChecker() =
           return!
             options
             |> Seq.filter (fun (_, projectOpts) -> projectOpts = opts)
-            |> Seq.map fst
-            |> Seq.map (fun projectFile -> async {
+            |> Seq.map (fun (projectFile,_) -> async {
                 let! parseRes, _ = checker.GetBackgroundCheckResultsForFileInProject(projectFile, opts)
                 return (parseRes.GetNavigationItems().Declarations |> Array.map (fun decl -> decl, projectFile))
               })
