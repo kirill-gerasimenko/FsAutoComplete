@@ -4,6 +4,7 @@ open System
 open System.IO
 open Microsoft.FSharp.Compiler.SourceCodeServices
 open FSharpLint.Application
+open Lexer
 
 module Response = CommandResponse
 
@@ -48,7 +49,7 @@ type Commands (serialize : Serializer) =
         let file = Path.GetFullPath file
         let text = String.concat "\n" lines
 
-        let comments = Lexer.Comments.getComments lines
+        let comments = Comments.getComments lines
 
         if Utils.isAScript file then
             let! checkOptions = checker.GetProjectOptionsFromScript(file, text)
@@ -121,31 +122,47 @@ type Commands (serialize : Serializer) =
     member __.Error msg = [Response.error serialize msg]
 
     member __.Completion (tyRes : ParseAndCheckResults) (pos: Pos) lineStr filter includeKeywords = async {
+        let column = pos.Col - 1
+        let line = pos.Line - 1
         let lineComments = 
             state.Files.TryFind tyRes.FileName
-            |> Option.bind (fun files -> files.Comments.TryFind pos.Line)
+            |> Option.bind (fun files -> files.Comments.TryFind line)
             |> function | None -> [] | Some c -> c
 
-        let! res = tyRes.TryGetCompletions pos lineStr filter
-        return match res with
-                | Some (decls, residue) ->
-                    let declName (d: FSharpDeclarationListItem) = d.Name
+        let isInsideComment =
+            lineComments
+            |> List.exists (fun lineComment ->
+                match lineComment.Comment with
+                | Comments.LineCommentInfo.WholeLine _ ->
+                    true
+                | Comments.LineCommentInfo.Range (left,right,_) ->
+                    left < column && column < right + 1
+                | Comments.LineCommentInfo.Line (left,_) -> 
+                    left < column )
 
-                    // Send the first helptext without being requested.
-                    // This allows it to be displayed immediately in the editor.
-                    let firstMatchOpt =
-                      Array.sortBy declName decls
-                      |> Array.tryFind (fun d -> (declName d).StartsWith(residue, StringComparison.InvariantCultureIgnoreCase))
-                    let res = match firstMatchOpt with
-                                | None -> [Response.completion serialize decls includeKeywords]
-                                | Some d ->
-                                    [Response.helpText serialize (d.Name, d.DescriptionText)
-                                     Response.completion serialize decls includeKeywords]
+        if isInsideComment then
+            return [Response.completion serialize [||] includeKeywords]
+        else
+            let! res = tyRes.TryGetCompletions pos lineStr filter
+            return match res with
+                    | Some (decls, residue) ->
+                        let declName (d: FSharpDeclarationListItem) = d.Name
 
-                    for decl in decls do
-                        state.HelpText.[declName decl] <- decl.DescriptionText
-                    res
-                | None -> [Response.error serialize "Timed out while fetching completions"]
+                        // Send the first helptext without being requested.
+                        // This allows it to be displayed immediately in the editor.
+                        let firstMatchOpt =
+                          Array.sortBy declName decls
+                          |> Array.tryFind (fun d -> (declName d).StartsWith(residue, StringComparison.InvariantCultureIgnoreCase))
+                        let res = match firstMatchOpt with
+                                    | None -> [Response.completion serialize decls includeKeywords]
+                                    | Some d ->
+                                        [Response.helpText serialize (d.Name, d.DescriptionText)
+                                         Response.completion serialize decls includeKeywords]
+
+                        for decl in decls do
+                            state.HelpText.[declName decl] <- decl.DescriptionText
+                        res
+                    | None -> [Response.error serialize "Timed out while fetching completions"]
     }
 
     member x.ToolTip (tyRes : ParseAndCheckResults) (pos: Pos) lineStr =
