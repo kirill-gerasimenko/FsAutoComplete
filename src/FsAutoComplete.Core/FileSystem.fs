@@ -2,11 +2,13 @@ namespace FsAutoComplete
 
 open Microsoft.FSharp.Compiler.AbstractIL.Internal.Library
 open System
+open Lexer.Comments
 
 type VolatileFile =
   {
     Touched: DateTime
     Lines: string []
+    Comments: Map<int,LineComment list>
   }
 
 open System.IO

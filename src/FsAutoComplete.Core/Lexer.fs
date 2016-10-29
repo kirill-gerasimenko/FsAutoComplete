@@ -437,11 +437,10 @@ module Lexer =
                     ) []
                 |> List.rev
 
-        let getComments text =
+        let getComments lines =
             let sourceTokenizer = FSharpSourceTokenizer ([], None)
 
-            text
-            |> getLines
+            lines
             |> List.ofArray
             |> Impl.tokenizeText sourceTokenizer
             |> Impl.getComments

@@ -4,6 +4,8 @@ open System
 open Microsoft.FSharp.Compiler.SourceCodeServices
 open System.Collections.Concurrent
 
+open Lexer.Comments
+
 type DeclName = string
 
 type State =
@@ -22,7 +24,7 @@ type State =
       HelpText = ConcurrentDictionary()
       ColorizationOutput = false }
 
-  member x.GetCheckerOptions(file: SourceFilePath, lines: LineStr[]) : FSharpProjectOptions =
+  member x.GetCheckerOptions(file: SourceFilePath, lines: LineStr[], comments: LineComment list) : FSharpProjectOptions =
     let file = Utils.normalizePath file
 
     let opts =
@@ -30,13 +32,16 @@ type State =
       | None -> State.FileWithoutProjectOptions file
       | Some opts -> opts
 
-    x.Files.[file] <- { Lines = lines; Touched = DateTime.Now }
+    let commentsMap = comments |> List.groupBy (fun c -> c.Line) |> Map.ofList
+
+    x.Files.[file] <- { Lines = lines; Touched = DateTime.Now; Comments = commentsMap }
     x.FileCheckOptions.[file] <- opts
     opts
 
-  member x.AddFileTextAndCheckerOptions(file: SourceFilePath, lines: LineStr[], opts) =
+  member x.AddFileTextAndCheckerOptions(file: SourceFilePath, lines: LineStr[], comments: LineComment list, opts) =
     let file = Utils.normalizePath file
-    let fileState = { Lines = lines; Touched = DateTime.Now }
+    let commentsMap = comments |> List.groupBy (fun c -> c.Line) |> Map.ofList
+    let fileState = { Lines = lines; Touched = DateTime.Now; Comments = commentsMap }
     x.Files.[file] <- fileState
     x.FileCheckOptions.[file] <- opts
 

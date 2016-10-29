@@ -48,12 +48,14 @@ type Commands (serialize : Serializer) =
         let file = Path.GetFullPath file
         let text = String.concat "\n" lines
 
+        let comments = Lexer.Comments.getComments lines
+
         if Utils.isAScript file then
             let! checkOptions = checker.GetProjectOptionsFromScript(file, text)
-            state.AddFileTextAndCheckerOptions(file, lines, checkOptions)
+            state.AddFileTextAndCheckerOptions(file, lines, comments, checkOptions)
             return! parse' file text checkOptions
         else
-            let checkOptions = state.GetCheckerOptions(file, lines)
+            let checkOptions = state.GetCheckerOptions(file, lines, comments)
             return! parse' file text checkOptions
     }
 
@@ -119,6 +121,11 @@ type Commands (serialize : Serializer) =
     member __.Error msg = [Response.error serialize msg]
 
     member __.Completion (tyRes : ParseAndCheckResults) (pos: Pos) lineStr filter includeKeywords = async {
+        let lineComments = 
+            state.Files.TryFind tyRes.FileName
+            |> Option.bind (fun files -> files.Comments.TryFind pos.Line)
+            |> function | None -> [] | Some c -> c
+
         let! res = tyRes.TryGetCompletions pos lineStr filter
         return match res with
                 | Some (decls, residue) ->
